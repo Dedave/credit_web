@@ -1,0 +1,411 @@
+<div class="grid grid-cols-4">
+    <app-side-bar></app-side-bar>
+</div>
+ <div class="wrapper">
+<div class="flex justify-between">
+    <div class="relative m-3 flex justify-center menuu">
+        
+          <h3 class="greetings mt-5 ml-6">Good Morning, <span style="color: #828282;">Michael</span> </h3>
+    </div>
+    <div class="relative flex mr-14 mt-5 p-2 cursor-pointer">
+        <h3 class="datee mt-3 mr-5">April 7, 2021</h3>
+        <div class="flex">
+         <img src="assets/images/img1.png" alt="img">
+         <svg class="fill-current mt-5 ml-1 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+
+        </div>
+    </div>
+    </div>
+    <h3 style="margin-left: 280px;">Incomplete Actions</h3>
+ 
+    <div class="menu">
+    
+        <div class="m-3 flex justify-between"> 
+            <div class="list">
+                <div class="flex m-5">
+                    <div class="mb-3">
+                      <div class="inline-block relative w-40">
+                    <select class="form-select appearance-none
+                    block
+                    w-40
+                    px-3
+                    py-1.5
+                    text-base
+                    font-normal
+                    text-gray-700
+                    bg-white bg-clip-padding bg-no-repeat
+                    rounded
+                    transition
+                    ease-in-out
+                    m-0
+                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                      <option selected disabled>Bulk Action</option>
+                      <option value="general">No Action</option>
+                  </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                  </div>
+             </div>
+             <div>
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="search">
+                <div class="flex items-center mt-5 w-80 rounded bg-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2 ml-2 text-gray-600" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <input type="text" name="search" placeholder=" Search tickets"
+                        class="w-2/3 h-1/3 py-2 outline-none">
+                </div>
+                
+            </div>
+            <div class="list">
+                <div class="flex m-5">
+                    <div class="mb-3">
+                      <div class="inline-block relative w-40">
+                    <select class="form-select appearance-none
+                    block
+                    w-40
+                    px-3
+                    py-1.5
+                    text-base
+                    font-normal
+                    text-gray-700
+                    bg-white bg-clip-padding bg-no-repeat
+                    rounded
+                    transition
+                    ease-in-out
+                    m-0
+                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
+                      <option selected disabled>Filter By</option>
+                      <option value="general">Nothing to Filter</option>
+                  </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                      <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                    </div>
+                  </div>
+             </div>
+             <div>
+                    </div>
+                  </div>
+                
+            </div>
+    </div>
+    <div class="m-3 mt-7 flex justify-between">
+        <div class="stat">
+            <div class="overflow-hidden sm:rounded-lg">
+                <table class="min-w-full divide-y divide-gray-200">
+                  <thead>
+                    <tr style="background: #FEE9DF;
+                  border-radius: 5px 5px 0px 0px;">
+                  <th class="px-6 py-6"> <input type="checkbox" id="check1" name="check1" value="check1">
+
+                </th>
+                      <th scope="col" class="name px-6 py-3">Name</th>
+                      <th scope="col" class="email px-6 py-3">Email</th>
+                      <th scope="col" class="phone px-6 py-3">Phone Number</th>
+                      <th scope="col" class="ipps px-6 py-3">IPPIS No</th>
+                      <th scope="col" class="amountt px-6 py-3">Amount</th>
+                      <th scope="col" class="tenor px-6 py-3">Tenor</th>
+                      <th scope="col" class="date px-6 py-3">Date</th>
+                      <th scope="col" class="mode px-6 py-3">Mode</th>
+                      <th scope="col" class="mda px-6 py-3">MDA Name</th>
+
+                    </tr>
+                  </thead>
+                  <tbody class="bg-white divide-y divide-gray-200">
+                 <!-- table row starts -->
+                <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="margin-left: -10px;" class="px-6 py-4 whitespace-nowrap">
+                            <input type="checkbox" id="check1" name="check1" value="check1">
+                            <button class="viewbtn" type="button">View</button>
+                        </td>
+
+                        <td style="margin-left: -30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="flex items-center">
+                                <div class="text-sm font-medium text-gray-900">Celestine Ojiaku</div>
+                              </div>
+                          </td>
+                      <td style="margin-left: -30px;" class=" px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center">
+                            <div class="text-sm font-medium text-gray-900">okenufrancisca@gmail.<br>com</div>
+                          </div>
+                      </td>
+                      <td style="margin-left: -10px;" class="px-1 py-4 whitespace-nowrap">
+                        <div class="text-sm text-gray-900">08066075282</div>
+                      </td>
+                      
+                      <td class="px-6 py-4 whitespace-nowrap text-sm">490535</td>
+                      <td>
+                        <span class="inline-block px-3 py-1 mr-2">N300,000</span>
+                        </td>
+                        <td style="margin-left: -20px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Unfinalized</div>
+                          </td>
+                          <td style="margin-left: -35px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">21/04/21</div>
+                          </td>
+                          <td style="margin-left: -36px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">Web</div>
+                          </td>
+                          <td style="margin-left:-30px;" class="px-6 py-4 whitespace-nowrap">
+                            <div class="text-sm text-gray-900">National Board for Arabic <br> and Islamic Studies</div>
+                          </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+                <div class="flex">
+                <label style="font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                
+                color: #828282;">Displaying
+                 <span class="fig inline-block mr-2 ml-2 border border-red-200 h-6 w-6 rounded bg-white text-center">8</span>
+                 out of 1500 results
+                </label>
+                <label class="range">125 - 150</label>
+                <svg xmlns="http://www.w3.org/2000/svg" class="prevnext h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="prevnext h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+            </div>
+              </div>
+            
+        </div>
+</div>
+    <div>
+
+    </div>
+    </div>
+</div> 

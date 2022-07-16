@@ -1,0 +1,27 @@
+.sidebar{
+    width: 240px;
+    background:  #FEE9DF;;
+}
+.line{
+    margin-top:30px;
+}
+.active{
+    margin-top: 80px;
+}
+li{
+    width: 230px;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+    color: #333333;
+    font-size: 14px;
+}
+li:hover{
+    background: #333333;
+    color: #FEE9DF;
+}
+.recovery{
+    width: 240px;
+background: #333333;
+}

@@ -1,0 +1,151 @@
+.wrapper{
+    font-family: 'Josefin Sans';
+    background: #FCFBFB;
+
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px whitesmoke; 
+    border-radius: 10px;
+  }
+.menuu{
+    margin-left: 250px;
+}
+.menu{
+    margin-left: 270px;
+    margin-top: 14px;
+    height:500px;
+    width: 1063px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border:1px solid #FCFBFB;
+    border-radius: 20px;
+   
+}
+.greetings{
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 36px;
+}
+.list{
+    margin-right: 10px;
+    width: 232px;
+    height: 245px;
+    background: #FCFBFB;
+    border-radius: 10px;
+}
+.stat{
+    width: 504px;
+height: 410px;
+background: #FCFBFB;
+border-radius: 10px;
+}
+.title{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #333333;
+}
+.amount{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #828282;
+}
+.figure{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+color: #F56B2A;
+}
+
+.total{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #828282;
+margin-top: 40px;
+}
+.number{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+color: #000000;
+}
+@keyframes growProgressBar {
+    0%, 33% { --pgPercentage: 0; }
+    100% { --pgPercentage: var(--value); }
+  }
+  
+  @property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+  }
+  .progress{
+    margin-left: 160px;
+    margin-top: 30px;
+  }
+  div[role="progressbar"] {
+    --size: 12rem;
+    --fg: #F56B2A;
+    --bg: #FFE5D3;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
+  }
+  
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+  input[name="amount"] {
+	accent-color: #F56B2A;
+    background:#F56B2A;
+}
+tr:nth-child(odd) {
+    background-color:  #FCFBFB;
+  }
+  
+th{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+color: #333333;
+}
+.img{
+    width: 50px;
+height: 50px;
+}
+.date{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: right;
+margin-left:-40px;
+color: #333333;
+}

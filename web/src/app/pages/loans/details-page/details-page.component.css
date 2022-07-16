@@ -1,0 +1,172 @@
+.wrapper{
+    font-family: 'Josefin Sans';
+    background: #FCFBFB;
+
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px whitesmoke; 
+    border-radius: 10px;
+  }
+.menuu{
+    margin-left: 250px;
+}
+.menu{
+    margin-left: 270px;
+    margin-top: 14px;
+    height:500px;
+    width: 1063px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border:1px solid #FCFBFB;
+   
+}
+.greetings{
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 36px;
+}
+
+.title{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #333333;
+}
+.btnList{
+    height: 44px;
+    margin: 10px;
+    padding:10px;
+border: 1px solid #E0E0E0;
+border-radius: 5px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+color: #333333;
+}
+.img{
+    width: 50px;
+height: 50px;
+}
+.date{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: right;
+margin-left:-40px;
+color: #333333;
+}
+.loanDetails{
+    margin: 20px;
+    margin-left: -15px;
+    width: 614px;
+    height: 521px;
+    background: #FCFCFC;
+    border-radius: 10px;
+}
+.personalInfo{
+    margin-top: 20px;
+    width: 412px;
+height: 306px;
+background: #FCFBFB;
+border-radius: 10px;
+}
+.lnDetails{
+    font-family: 'Josefin Sans';
+    margin-left:20px;
+    width: 380px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #000000;
+}
+.lnDtl{
+    font-family: 'Josefin Sans';
+    width:250px;
+    margin-right:20px;
+    text-align: right;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #828282;
+}
+.pDetails{
+    font-family: 'Josefin Sans';
+    margin-left:20px;
+    width: 180px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #000000;
+}
+.pDtl{
+    font-family: 'Josefin Sans';
+    width:150px;
+    margin-left:40px;
+    text-align: right;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #828282;
+}
+.list{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #333333;
+margin-left: 30px;
+    margin-top: 12px;
+}
+.list:hover{
+    color:#F56B2A; 
+     border-bottom: 2px solid  #F56B2A;
+     padding:2px;
+     cursor: pointer;
+}
+.ippsVerify{
+    margin: 20px;
+    margin-left: -15px;
+    width: 614px;
+height: 741px;
+background: #FCFCFC;
+border-radius: 10px;
+}
+.reqDetails{
+    margin-top: 20px;
+    width: 412px;
+height: 301px;
+background-color: rgba(111, 207, 151, 0.2);
+border-radius: 10px;
+}
+.stat{
+    width: 1050px;
+    margin-left: -20px;
+border-radius: 10px;
+}
+th{
+    
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #4F4F4F;
+}
+tbody{
+    height: 80px;
+background: #FCFBFB;
+}
+.rsp{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+margin: 10px;
+font-size: 18px;
+color: #000000;
+
+}
