@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/dist/credit_web'));
 
 app.get('/*', function(req,res) {
     
-res.sendFile(path.join(__dirname+'/dist/credit_web/web/index.html'));
+res.sendFile(path.join(__dirname+'/dist/credit_web/index.html'));
 });
 
 // Start the app by listening on the default Heroku port
