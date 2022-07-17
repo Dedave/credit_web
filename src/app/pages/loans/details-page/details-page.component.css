@@ -1,7 +1,6 @@
 .wrapper{
     font-family: 'Josefin Sans';
     background: #FCFBFB;
-    overflow-x: hidden;
 }
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px whitesmoke; 
@@ -75,6 +74,7 @@ color: #333333;
 height: 306px;
 background: #FCFBFB;
 border-radius: 10px;
+overflow-x: hidden;
 }
 .lnDetails{
     font-family: 'Josefin Sans';
